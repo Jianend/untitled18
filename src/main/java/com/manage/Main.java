@@ -18,5 +18,6 @@ public class Main {
         BookMapper mapper = sqlSession.getMapper(BookMapper.class);
         mapper.addStudent(new Student("Ð¡Ã÷","ÄÐ",2019));
 
+
     }
 }
