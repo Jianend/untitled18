@@ -12,7 +12,24 @@ public class Student {
     public Student(String name, String sex, int grade) {
 
         this.name = name;
-        this.sex = sex;
+        if (sex.equals("1")){
+            this.sex="男";
+        }else {
+            this.sex="女";
+        }
         this.grade = grade;
+    }
+
+    @Override
+    public String toString() {
+        return "Student{" +
+                "sid=" + sid +
+                ", 学生名称='" + name + '\'' +
+                ", 学生性别='" + sex + '\'' +
+                ", 学生年级=" + grade +
+                '}';
+    }
+
+    public Student() {
     }
 }

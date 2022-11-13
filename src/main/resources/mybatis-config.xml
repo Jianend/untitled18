@@ -7,8 +7,8 @@
         <environment id="development">
             <transactionManager type="JDBC"/>
             <dataSource type="POOLED">
-                <property name="driver" value="com.mysql.jdbc.Driver"/>
-                <property name="url" value="jdbc:mysql://124.220.176.110:3306/Library"/>
+                <property name="driver" value="com.mysql.cj.jdbc.Driver"/>
+                <property name="url" value="jdbc:mysql://124.220.176.110:3306/library"/>
                 <property name="username" value="Library"/>
                 <property name="password" value="AYwDeWcXSEsE4LPb"/>
             </dataSource>
